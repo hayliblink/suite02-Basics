@@ -14,3 +14,11 @@
         getCharAt("salut", 4); // "t"
 
 */
+
+function getCharAt(str, position) {
+    if (position<0 || position>str.length) {
+        return "";
+    }
+
+    return str[position];
+}
